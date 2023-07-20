@@ -38,6 +38,6 @@ int main() {
     printf( "Please Enter salary : " ) ;
     scanf( "%f", &salary ) ;
     printf( "Employees ID = %s\n", Employees_ID ) ;
-    printf( "Salary = U$ %0.2f\n", salary  * work_hr ) ;
+    printf( "Salary = U$ %0.2f", salary  * work_hr ) ;
     return 0 ;
 }//end main function
