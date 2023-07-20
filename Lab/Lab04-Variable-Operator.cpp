@@ -31,7 +31,6 @@ int main() {
     char Employees_ID[10] ;
     int work_hr = 0 ;
     float salary = 0 ;
-
     printf("Please Enter ID  " ) ;
     scanf("%s", Employees_ID ) ;
     printf("Please Enter working hour  " ) ;
