@@ -39,8 +39,9 @@ int main() {
 
     printf( "Please Enter salary : " ) ;
     scanf( "%f", &salary ) ;
-    
-    printf( "Employees ID = %s\n", Employees_ID ) ;
+
+    printf("Expected Output:\n");
+    printf( "Employees ID = %s\n", Employees_ID) ;
     printf( "Salary = U$ %0.2f", salary  * work_hr ) ;
     return 0 ;
 }//end main function
